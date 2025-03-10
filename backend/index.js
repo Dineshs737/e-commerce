@@ -40,12 +40,29 @@ server.use("/categories",categoryRoutes)
 server.use("/address",addressRoutes)
 server.use("/reviews",reviewRoutes)
 server.use("/wishlist",wishlistRoutes)
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 
 
 server.get("/",(req,res)=>{
     res.status(200).json({message:'running'})
 })
+
+server.post('/create-payment-intent', async (req, res) => {
+    const { amount } = req.body; // Amount in cents (e.g., 5000 for $50.00)
+  
+    try {
+      const paymentIntent = await stripe.paymentIntents.create({
+        amount, // Amount in cents
+        currency: 'usd', // Change as needed
+        payment_method_types: ['card'],
+      });
+  
+      res.status(200).json({ clientSecret: paymentIntent.client_secret });
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  });
 
 server.listen(8000,()=>{
     console.log('server [STARTED] ~ http://localhost:8000');
