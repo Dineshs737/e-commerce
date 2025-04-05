@@ -72,7 +72,7 @@
 Install frontend dependencies
 ```bash
 cd frontend
-npm install
+npm install --legacy-peer-deps
 ```
 
 Install backend dependencies
