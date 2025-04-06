@@ -3,16 +3,16 @@ const Product = require("../models/Product");
 const products = [
   {
     _id: "65a7e45902e12c44f599444e",
-    title: "iPhone 9",
+    title: "iPhone 11",
     description: "An apple mobile which is nothing like apple",
     price: 549,
     discountPercentage: 12.96,
     stockQuantity: 14,
     brand: "65a7e20102e12c44f59943da",
     category: "65a7e24602e12c44f599442c",
-    thumbnail: "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    thumbnail: "https://th.bing.com/th/id/OIP.Oc1HNQ30sC7vWXHqfxV31AHaEG?rs=1&pid=ImgDetMain",
     images: [
-      "https://cdn.dummyjson.com/product-images/1/1.jpg",
+      "https://pngimg.com/uploads/iphone_11/iphone_11_PNG20.png",
       "https://cdn.dummyjson.com/product-images/1/2.jpg",
       "https://cdn.dummyjson.com/product-images/1/3.jpg",
       "https://cdn.dummyjson.com/product-images/1/4.jpg",
