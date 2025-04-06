@@ -12,7 +12,7 @@ const products = [
     category: "65a7e24602e12c44f599442c",
     thumbnail: "https://th.bing.com/th/id/OIP.Oc1HNQ30sC7vWXHqfxV31AHaEG?rs=1&pid=ImgDetMain",
     images: [
-      "https://cdn.dummyjson.com/product-images/1/1.jpg",
+      "https://pngimg.com/uploads/iphone_11/iphone_11_PNG20.png",
       "https://cdn.dummyjson.com/product-images/1/2.jpg",
       "https://cdn.dummyjson.com/product-images/1/3.jpg",
       "https://cdn.dummyjson.com/product-images/1/4.jpg",
