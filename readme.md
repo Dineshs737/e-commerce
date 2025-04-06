@@ -1,15 +1,8 @@
-## MERN Ecommerce: A Seamless Shopping Experience Powered by the MERN Stack, Redux Toolkit, and Material UI
+# **Let's Shop**
 
-### ```Note✨: I have another amazing project on``` [end-to-end-encrypted-chat-application](https://github.com/RishiBakshii/mern-chat) ```using Next.js, Prisma, Postgresql, Express, Socket.io.```
+This is `Let's Shop` e commerce website project. this is fully dockerized full-stack aplication that use MongoDB, Express.js, React, Node.js. and yes Mern.
 
-**MERN Ecommerce** is a full-stack application designed to transform your online shopping experience. Built with the MERN stack (MongoDB, Express.js, React, Node.js), it leverages Redux Toolkit for efficient state management and Material UI for a sleek, user-friendly interface. This project offers a robust platform for both users and admins, packed with essential features for a seamless experience.
-
-![ecommerce-homepage](https://github.com/RishiBakshii/mern-ecommerce/blob/main/frontend/src/assets/images/front.png?raw=true)
-<!-- ![ecommerce-banner](https://github.com/RishiBakshii/mern-ecommerce/blob/main/frontend/src/assets/images/banner4.jpg?raw=true) -->
-![ecommerce-banner](https://github.com/RishiBakshii/mern-ecommerce/blob/main/frontend/src/assets/images/banner3.jpg?raw=true)
-
-
-# **Features**
+## **Features**
 
 ### **User:**
 - **Product Reviews:**
@@ -38,7 +31,7 @@
 
 ### **Security & User Experience:**
 - **Secure Authentication:**
-  - Login, signup, OTP verification, password reset, and logout.
+  - Login, signup, and logout.
 
 - **Intuitive Interface:**
   - Powered by Material UI for a visually appealing and user-friendly experience.
@@ -53,18 +46,27 @@
 ### Prerequisites
 - Node.js ( version v21.1.0 or later )
 - MongoDB installed and running locally
+- Docker (If you decided to run the whole project via Docker, you dont need other prerequisites)
 
 ### Clone the project
 
 ```bash
-  git clone https://github.com/RishiBakshii/mern-ecommerce.git
+  git clone https://github.com/Dineshs737/e-commerce.git
 ```
 
 ### Navigate to the project directory
 
 ```bash
-  cd mern-ecommerce
+  cd e-commerce
 ```
+
+> [!NOTE]  
+> If you decided to deploy via docker just run `docker compose up --build`
+
+> [!IMPORTANT]  
+> If you already have MongoDB server in your system you have to stop it before running the docker.
+> Run `CMD` as admin and type `net stop MongoDB`
+
 
 ### Install dependencies for frontend and backend separately
 **Tip:** To efficiently install dependencies for both frontend and backend simultaneously, use split terminals.
@@ -170,8 +172,6 @@ Once both servers are running, you can access them at the following URL's:
 - Backend: http://localhost:8000
 - Frontend: http://localhost:3000
 
-## **Bonus**
-Don't forget to star the repository and share your feedback!✨
-
 ## Authors
-- [@RishiBakshii](https://github.com/RishiBakshii)
+
+- Original Author: [@RishiBakshii](https://github.com/RishiBakshii)
