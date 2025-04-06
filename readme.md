@@ -68,6 +68,9 @@ This is `Let's Shop` e commerce website project. this is fully dockerized full-s
 > Run `CMD` as admin and type `net stop MongoDB`
 
 
+> [!IMPORTANT]  
+> If you are doing any changes to db, before you run `docker compose up --build`, you have to run `docker compose down -v`
+
 ### Install dependencies for frontend and backend separately
 **Tip:** To efficiently install dependencies for both frontend and backend simultaneously, use split terminals.
 
