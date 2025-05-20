@@ -157,8 +157,18 @@ REACT_APP_BASE_URL="http://localhost:8000"
 - here are the `login credentials`
 ```bash
   email: demo@gmail.com
-  pass: helloWorld@123
+  pass: admin
+  
 ```
+
+- For the admin
+
+```bash
+  email: demo2@gmail.com
+  pass: admin
+```
+
+
 
 - **Please Note**: While the demo account provides a convenient way to explore many features, it has some limitations:
     - **Password Reset and OTP Verification**: Due to security reasons, the demo account uses a non-real email address. Therefore, password reset and OTP verification functionalities are not available for this account.
